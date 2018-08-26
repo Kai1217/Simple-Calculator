@@ -18,8 +18,8 @@ print("4.Divide")
 
 choice = input("Enter choice(1/2/3/4):")
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = int(float("Enter first number: "))
+num2 = int(float("Enter second number: "))
 
 if choice == '1':
     print(num1,"+",num2,"=", add(num1,num2))
